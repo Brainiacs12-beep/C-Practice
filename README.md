@@ -37,7 +37,20 @@ C language instructions are case-sensitive.
 Instructions execute in the same order in which
 they are written
 
-*comments*
-// or multi lines use  /*-----*/
-used to drop notes in program
-non executable
+Escape sequences in C are special character combinations that start with a backslash () and represent characters that are hard to type or can't be written directly in a string or character literal.
+
+Here are the most common ones:
+
+\n newline (moves to the next line)
+\t horizontal tab
+\\ a literal backslash
+\' single quote
+\" double quote
+\0 null character (marks the end of a C string)
+\r carriage return
+\a alert (beep)
+\b backspace
+\f form feed
+\v vertical tab
+\? question mark (used to avoid trigraph issues in old code)
+
