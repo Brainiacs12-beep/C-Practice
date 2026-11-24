@@ -37,7 +37,7 @@ C language instructions are case-sensitive.
 Instructions execute in the same order in which
 they are written
 
-Escape sequences in C are special character combinations that start with a backslash () and represent characters that are hard to type or can't be written directly in a string or character literal.
+//Escape sequences in C are special character combinations that start with a backslash () and represent characters that are hard to type or can't be written directly in a string or character literal.
 
 Here are the most common ones:
 
@@ -54,3 +54,20 @@ Here are the most common ones:
 \v vertical tab
 \? question mark (used to avoid trigraph issues in old code)
 
+//Today i practice the C problem set
+
+1. Area of rectangle
+2. Volume of cylinder
+3. Temperature conversion
+4. Simple interest
+
+//code snippet
+A code snippet is a short piece of code, usually a few lines, that shows how to do one specific thing. People share snippets to illustrate an idea, answer a question, or reuse a common task without writing it from scratch.
+
+//issue1:
+I set up the Code Runner extension to compile and run your C programs in the terminal, using commands that work in PowerShell.
+
+Found the cause: The Output panel was using a broken command that put a trailing \ in your folder path, so gcc never ran.
+Changed the settings: In VS Code's user settings, I added a Code Runner rule for C that compiles the file and then runs the .exe.
+Ran in the terminal: The runInTerminal setting lets the program wait for your typed input, which scanf needs.
+this is done in json file of preferences with code runner code
