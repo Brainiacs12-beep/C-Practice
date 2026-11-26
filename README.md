@@ -71,3 +71,12 @@ Found the cause: The Output panel was using a broken command that put a trailing
 Changed the settings: In VS Code's user settings, I added a Code Runner rule for C that compiles the file and then runs the .exe.
 Ran in the terminal: The runInTerminal setting lets the program wait for your typed input, which scanf needs.
 this is done in json file of preferences with code runner code
+
+//chapter2
+
+learn the types of instructions
+
+1. Type declare instruction-
+ declare the variable
+2. Arithmetic instruction- perform mathematical operations
+3. Control instruction- determines the flow of control
