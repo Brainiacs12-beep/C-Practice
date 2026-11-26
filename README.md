@@ -79,4 +79,17 @@ learn the types of instructions
 1. Type declare instruction-
  declare the variable
 2. Arithmetic instruction- perform mathematical operations
+eg. modular division(% - can't be applied to float value directly)
+sign follows the numerator
+-No operator assumed between 2 operands
+eg. int c = ab //invalid
+-No exponential operator in c
 3. Control instruction- determines the flow of control
+
+//Type promotion and demotion
+int a = 3.5 //the fractional part is lost as int won't store float value  (demotion)
+float a = 8 // it will become a = 8.0  (promotion)
+
+//int d = a^b;
+its not the exponential . C don't have exponential
+
