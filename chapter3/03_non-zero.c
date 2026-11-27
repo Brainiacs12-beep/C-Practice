@@ -3,10 +3,10 @@
 int main(){
 
 if(1){
-    printf("This if is executed");
+    printf("This if is executed\n");
 }
 if(2345){
-   printf("\n  also executed!");
+   printf("also executed!\n");
 }
 
     return 0;
