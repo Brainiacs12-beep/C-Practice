@@ -93,3 +93,14 @@ float a = 8 // it will become a = 8.0  (promotion)
 //int d = a^b;
 its not the exponential . C don't have exponential
 
+//Chapter3
+Decision making instructions in c
+
+1. if-else
+The syntax of an if-else statement in C looks like:
+if (condition_to_be_checked) {
+ // Statements if condition is true
+} else {
+ // Statements if condition is false
+}
+
